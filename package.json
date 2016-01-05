@@ -1,0 +1,29 @@
+{
+  "name": "validate-social-access-tokens",
+  "version": "0.0.0",
+  "description": "A simple module that let's you validate access tokens from social logins",
+  "license": "MIT",
+  "repository": "hisabimbola/validate-social-access-tokens",
+  "author": {
+    "name": "Abimbola Idowu",
+    "email": "abimbola2010@gmail.com",
+    "url": "github.com/hisabimbola"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.8.0",
+    "xo": "^0.12.1"
+  }
+}
