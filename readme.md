@@ -13,32 +13,28 @@ $ npm install --save validate-social-access-tokens
 ## Usage
 
 ```js
-const validateSocialAccessTokens = require('validate-social-access-tokens');
+validateSocialAccessTokens = require('validate-social-access-tokens');
 
-validateSocialAccessTokens('unicorns');
-//=> 'unicorns & rainbows'
+validateSocialAccessTokens(<token>, <provider>).then(function(response) {
+  //token valid
+}).catch(function(error) {
+  //token not valid or error occured
+  //handle error
+});
 ```
 
 
 ## API
 
-### validateSocialAccessTokens(input, [options])
+### validateSocialAccessTokens(token, provider)
 
-#### input
+#### token
 
 Type: `string`
 
-Lorem ipsum.
+#### provider
 
-#### options
-
-##### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
-
+Providers supported includes Facebook and Google, others are coming soon.
 
 ## License
 
