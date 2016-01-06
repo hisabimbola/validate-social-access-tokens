@@ -1,6 +1,6 @@
 {
   "name": "validate-social-access-tokens",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A simple module that let's you validate access tokens from social logins",
   "license": "MIT",
   "repository": "hisabimbola/validate-social-access-tokens",
